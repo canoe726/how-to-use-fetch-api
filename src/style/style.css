@@ -1,0 +1,42 @@
+.header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-img-btn {
+    padding: 4px;
+    font-size: 24px;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-content {
+    margin-top: 15px;
+    width: 350px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-img {
+    height: 70%;
+}
+
+.dog-name {
+    font-size: 16px;
+}
