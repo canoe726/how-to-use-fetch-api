@@ -2,9 +2,9 @@
 Javascript fetch api, module ES6, the Dog Api
 
 ## 0. 실행화면
-<div style="display:flex; justify-content:center; align-items:center;">
+<p align="center">
   <img width="50%" src="https://user-images.githubusercontent.com/36183001/90401205-94123380-e0d8-11ea-9825-baebf34d743b.gif">
-</div>
+</p>
 
 ## 1. Fetch
 
