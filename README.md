@@ -2,7 +2,7 @@
 Javascript fetch api, module ES6, the Dog Api
 
 ## 0. 실행화면
-<div>
+<div style="display:flex; justify-content:center; align-items:center;">
   <img width="50%" src="https://user-images.githubusercontent.com/36183001/90401205-94123380-e0d8-11ea-9825-baebf34d743b.gif">
 </div>
 
@@ -11,7 +11,7 @@ Javascript fetch api, module ES6, the Dog Api
 - Fetch : XMLHttpRequest의 대체재, Request나 Response를 관리하기 쉽다.
 
 > async, await 키워드를 사용하여 비동기적으로 데이터를 가져온다. (Promise 객체가 아닌 실제 데이터를 얻기 위함)
-<br>
+
 > try, catch 를 통해 비동기처리 중 발생할 수 있는 오류를 예방한다.
 
 ```
@@ -39,9 +39,9 @@ const request = async url => {
 
 - 모듈화를 하는 이유 : 
 > 비동기 방식으로 필요한 부분의 데이터를 가져오기 때문에 성능과 메모리상에서 이점이 있다.
-<br>
+
 > default, export, import, from 과 같은 모듈 키워드를 사용해 가독성이 높다.
-<br>
+
 > 파일이 분리되어 있기 때문에 유지보수, 재사용 측면에서 유리하다.
 
 1) 모듈화를 위해 module script 생성
